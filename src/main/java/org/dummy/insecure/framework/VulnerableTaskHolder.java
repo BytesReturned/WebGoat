@@ -7,7 +7,6 @@ import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-import org.jruby.RubyMath.INVOKER.s.log;
 
 import lombok.extern.slf4j.Slf4j;
 
