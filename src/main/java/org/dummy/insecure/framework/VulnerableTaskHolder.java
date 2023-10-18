@@ -36,7 +36,7 @@ public class VulnerableTaskHolder implements Serializable {
         + "]";
   }
  public Object toString2() {
-	 return null;
+	 return null;				//test esempio 
  }
   /**
    * Execute a task when de-serializing a saved or received object.
