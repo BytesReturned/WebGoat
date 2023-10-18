@@ -6,8 +6,6 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.time.LocalDateTime;
-
-
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -39,8 +37,9 @@ public class VulnerableTaskHolder implements Serializable {
   }
 
   public String prova() {
-	  return "questa e una prova";
+    return "questa e una prova";
   }
+
   /**
    * Execute a task when de-serializing a saved or received object.
    *
